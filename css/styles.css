@@ -11,10 +11,10 @@ body {
   background-color: grey;
   background-blend-mode: screen;
   padding-top: 5px;
-
 }
 
-.front {
+.well:hover {
+  cursor: pointer;
 }
 
 .back {

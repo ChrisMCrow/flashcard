@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $(".well").click(function() {
-    $(".front", this).toggle();
-    $(".back", this).toggle();
+    $(".front", this).slideToggle();
+    $(".back", this).slideToggle();
   });
-
 });
