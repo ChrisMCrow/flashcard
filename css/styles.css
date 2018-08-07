@@ -1,6 +1,27 @@
+body {
+  background-image: url("../img/notebook.png");
+  font-family: Chalkduster;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.well {
+  background-image: url("../img/flashcard.png");
+  background-color: grey;
+  background-blend-mode: screen;
+  padding-top: 5px;
+
+}
+
 .front {
 }
 
 .back {
   display: none;
+  font-size: 20.5px;
+}
+
+.jumbotron {
+  text-align: center;
 }
